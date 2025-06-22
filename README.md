@@ -1,20 +1,26 @@
-![Craft](readme-image.jpg)
+![Phasor](readme-image.jpg)
 
-# PHASOR – README: Components & Soldering Order
+# PHASOR AVR Demo — Custom PCB
 
-**Project**: [Phasor by lft (Demoscene)](https://www.linusakesson.net/hardware/phasor/index.php)  
-**Author**: Linus Åkesson aka LFT
-
-
-PHASOR is a self-contained demo synthesizer that generates real-time PAL composite video and audio using only an ATmega88 microcontroller, showcasing what’s possible with bare-metal AVR programming.
+This repository contains a custom double-layer PCB design for running the [PHASOR demo](https://www.linusakesson.net/hardware/phasor/index.php) by Linus Åkesson on an ATmega88-20PU microcontroller.
 
 ---
 
-## 📁 Project Contents
+## 📁 Contents
 
 - `JSON/`: EasyEDA schematic and board layout  
 - `firmware/`: Precompiled HEX file and Flipper Zero-compatible firmware folder  
 - `README.md`: Project documentation
+
+---
+
+## ⚙️ Features
+
+- Pure AVR synth demo running on ATmega88  
+- Composite PAL video output  
+- Generative visuals synced to audio    
+- 5V operation (via 78L05 regulator)  
+- ISP programming header for flashing
 
 ---
 
@@ -85,16 +91,6 @@ Follow this order to make the assembly easier and reduce error risk:
 
 12. **🧠 Microcontroller (ATmega88-20PU)**  
     Insert into the socket, notch facing the same direction as the socket notch.
-
----
-
-## ⚙️ Features
-
-- Pure AVR synth demo running on ATmega88  
-- Composite PAL video output  
-- Generative visuals synced to audio    
-- 5V operation (via 78L05 regulator)  
-- ISP programming header for flashing
 
 ---
 
