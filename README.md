@@ -9,7 +9,8 @@ This repository contains a custom double-layer PCB design for running the [PHASO
 ## 📁 Contents
 
 - `JSON/`: EasyEDA schematic and board layout  
-- `firmware/`: Precompiled HEX file and Flipper Zero-compatible firmware folder  
+- `firmware/`: Precompiled HEX file and Flipper Zero-compatible firmware folder
+- `enclosure/`: 3D enclosure model (`.stl`)
 - `README.md`: Project documentation
 
 ---
