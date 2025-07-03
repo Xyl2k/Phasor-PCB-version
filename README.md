@@ -8,7 +8,7 @@ This repository contains a custom double-layer PCB design for running the [PHASO
 
 ## 📁 Contents
 
-- `JSON/`: EasyEDA schematic and board layout  
+- `JSON/`: EasyEDA schematic and board layout plus one 'swapped version' of the RCA connectors 
 - `firmware/`: Precompiled HEX file and Flipper Zero-compatible firmware folder
 - `enclosure/`: 3D enclosure model (`.stl`)
 - `README.md`: Project documentation
@@ -114,6 +114,7 @@ The `firmware/` folder includes:
 ## ⚠️ Beware: RCA Connector Signal/Ground Inversion
 
 If the RCA connectors are wired incorrectly — with **signal and ground inverted** — the video output will appear **distorted, wavy, or unstable**, even on CRT displays.
+Depending of your RCA connector we've included **1-Schematic_Phasor-RCA-Swap.json** and **1-PCB_Phasor-RCA-Swap.json** Who have swapped routes on the RCA, choose the one you need depennding of your connector schematic.
 
 ### ✅ Correct RCA wiring:
 - **Center pin** = Composite **video signal**
