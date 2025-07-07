@@ -5,6 +5,10 @@ This project includes two versions of the PCB layout for RCA connectors:
 - **Standard Pinout (Non-Inverted)**: `1-PCB_Phasor.json`
 - **Swapped Pinout (Inverted)**: `1-PCB_Phasor-RCA-Swap.json`
 
+- ## 🖼️ Reference Diagram
+
+![RCA Connector Pinout Guide](rca_swap.png)
+
 ## 🔍 Identify Your RCA Connector
 
 Use the mechanical drawing of your RCA jack to determine the correct pinout.
